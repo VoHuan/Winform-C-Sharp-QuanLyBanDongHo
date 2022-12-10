@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GUI</id>
+    <version>1.0.0</version>
+    <authors>GUI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="BLL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DTO" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\PC\source\repos\QuanLyBanHang\GUI\bin\Debug\net6.0-windows\GUI.runtimeconfig.json" target="lib\net6.0-windows7.0\GUI.runtimeconfig.json" />
+    <file src="C:\Users\PC\source\repos\QuanLyBanHang\GUI\bin\Debug\net6.0-windows\GUI.dll" target="lib\net6.0-windows7.0\GUI.dll" />
+  </files>
+</package>
